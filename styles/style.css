@@ -352,7 +352,7 @@ width: 41px;
     filter: blur(35px);
 }
 .ending-motto-learning{
-    margin-top: 50px;
+    margin-top: 24px;
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -384,7 +384,7 @@ width: 41px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 50px;
+    margin-bottom: 24px;
 }
 .about-me-img{
     width: 387px;
@@ -459,17 +459,18 @@ width: 41px;
     line-height: 90px;
 }
 .my-students-heading{
-    text-align: center;
-    font-family: "Marck Script";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 50px;
+        text-align: center;
+        font-family: "Marck Script";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 52px;
+        background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 24px;
+        height: 115px;
 
 }
 .review-block{
@@ -518,12 +519,13 @@ width: 41px;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 51px;
     background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 50px;
+    margin-bottom: 24px;
+    height: 115px;
 }
 .price-container{
     display: flex;
@@ -598,12 +600,12 @@ width: 41px;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 52px;
     background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 50px;
+    height: 115px;
 }
 .video-block{
     width: 1200px;
@@ -1048,7 +1050,7 @@ width: 41px;
         margin: auto;
     }
     .video, .course-program-container, .course-benefits-container, .ending-motto-learning, .about-me-container, .reviews-container, .price-container, .FAQ, .about-course{
-    margin-bottom: 50px;
+    margin-bottom: 24px;
     }
     .accordeon{
         width: 320px;
@@ -1162,5 +1164,9 @@ width: 41px;
       .footer-ending{
         font-size: 72px;
         letter-spacing: -3.3px;
+      }
+      .bold-name{
+        font-weight: 600;
+        font-size: 14px;
       }
  }
