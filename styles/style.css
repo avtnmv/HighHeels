@@ -42,6 +42,7 @@ nav{
 }
 ul li a{
     color: #FFF;
+    font-family: 'Montserrat';
 }
 .your-path{
     font-family: "Marck Script";
@@ -871,7 +872,68 @@ width: 41px;
         .action-button-mobile a{
             margin-top: 0px;
         }
-      
+      .contacts-links{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 41px;
+        /* flex-direction: column; */
+      }
+      .contacts-block-first{
+        display: flex;
+        justify-content: space-between;
+        gap: 41px;
+      }
+      .contacts-block-first ul{
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+      }
+
+      .contacts-block{
+        display: flex;
+        padding: 12px 26px;
+        align-items: center;
+        gap: 40px;
+        height: 93px;
+        border-radius: 24px;
+        border: 1px solid var(--grd-vertical, #9954F1);
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+.ul-contacts ul{
+    gap: 29px;
+}
+.insta-and-tg-links{
+    display: flex;
+    gap: 18px;
+}
+.contacts-img{
+    height: 70px;
+    display: block;
+    border-radius: 25px;
+    width: 415px;
+}
+.footer-ending{
+    margin-top: 50px;
+    font-family: "Marck Script";
+    font-size: 276px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -14.3px;
+    background: var(--grd-horizontal, linear-gradient(90deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 50px;
+}
 @media (max-width: 1200px) {
     .about-course{
         flex-direction: column;
@@ -1075,4 +1137,30 @@ width: 41px;
     .action-button-mobile{
         display: block;
     }
+    .contacts-links{
+
+        flex-direction: column; 
+      }
+      .contacts-block{
+        width: 320px;
+        flex-direction: column;
+        height: 135px;
+        gap: 20px;
+      }
+      .contacts-img{
+        width: 300px;
+        height: 60px;
+      }
+      .contacts-block-first{
+        width: 320px;
+        font-size: 12px;
+      }
+      .dont-worry-end{
+        text-align: center;
+        font-size: 12px;
+      }
+      .footer-ending{
+        font-size: 72px;
+        letter-spacing: -3.3px;
+      }
  }
