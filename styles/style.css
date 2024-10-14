@@ -749,7 +749,7 @@ width: 41px;
         
         /* Иконка бургера */
         .burger-icon {
-            display: block; /* Убедитесь, что иконка видна */
+            display: none; /* Убедитесь, что иконка видна */
             width: 69px;
             height: 40px;
             cursor: pointer;
