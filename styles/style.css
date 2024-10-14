@@ -758,7 +758,7 @@ width: 41px;
             top: 10px; /* Положение от верха страницы */
             right: 10px; /* Иконка справа */
             z-index: 1001;
-            border-radius: 10px;
+            border-radius: 20px;
             border: 1px solid rgba(255, 255, 255, 0.10);
             background: rgba(226, 110, 229, 0.90);
         }
