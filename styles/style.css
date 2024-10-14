@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+body{
+    background: #161616;
+}
+header{
+    background-image: url(../img/header-bg.png);
+
+    width: 100%;
+    height: 683px; /* Высота равна высоте окна браузера */
+    background-size: cover; /* Изображение покроет всю область */
+    background-position: center; /* Центровка изображения */
+    background-repeat: no-repeat; /
+}
+nav{
+    padding-top: 40px;
+}
+.nav-container{
+    display: flex;
+    margin: auto;
+    width: 600px;
+    justify-content: space-between;
+    color: #F7F7F8;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400px;
+    margin-bottom: 85px;
+}
+.header-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.your-path{
+    font-family: "Marck Script";
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    background: var(--grd-horizontal, linear-gradient(90deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.font-family{
+    font-family: "Marck Script";
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    background: var(--grd-horizontal, linear-gradient(90deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 45px;
+}
+.header-flex-first{
+    display: flex;
+    align-items: center;
+}
+.paragraph-flex{
+    color: #F7F7F8;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 40px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.block-first{
+    width: 367px;
+    color: #F7F7F8;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 54px;
+}
+.action-button{
+    margin-top: 48px;
+    display: inline-flex;
+    padding: 16px 119px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background: linear-gradient(90deg, #E26EE5 0%, #9954F1 100%);
+    color: #F7F7F8;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    gap: 4px;
+}
+.header-second-block{
+    display: flex;
+    align-items: center;
+}
+.font-family-second{
+    font-family: "Marck Script";
+font-size: 130px;
+font-style: normal;
+font-weight: 400;
+background: var(--grd-horizontal, linear-gradient(90deg, #9954F1 0%, #E26EE5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-left: 40px;
+line-height: 120px;
+}
+.block-second-margin{
+    margin-left: 15px;
+}
+.about-course{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-course-img-one, .about-course-img-two{
+    width: 387px;
+    height: 387px;
+}
+.about-us-heading{
+    text-align: center;
+font-family: "Marck Script";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: var(--grd-vertical, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 24px;
+}
+.about-us-p{
+    color: #F7F7F8;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 16px;
+}
+.video{
+    margin-bottom: 100px;
+}
+.course-program-svg-container{
+    display: flex;
+}
+.course-program-block{
+    display: flex;
+    max-width: 590px;
+    padding-bottom: 44px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 24px;
+    border: 1px solid var(--grd-horizontal, #9954F1);
+    color: #F7F7F8;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.course-program-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 23px 23px 0px 0px;
+    background: var(--grd-horizontal, linear-gradient(90deg, #9954F1 0%, #E26EE5 100%));
+}
+.padding-container{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.margin-rignt-course-program{
+    margin-right: 5px;
+}
+.course-program-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.course-program-block span{
+    font-weight: 600;
+}
+.main-heading-course-program{
+    color: #F7F7F8;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.padding-container{
+    color: #F7F7F8;;
+}
+.course-benefits-container-block{
+    display: flex;
+    gap: 20px;
+}
+.course-benefits-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.benefit-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid var(--grd-vertical, #9954F1);
+    width: 280px;
+    height: 280px;
+    padding: 55px 40px;
+    gap: 10px;
+    color: #F7F7F8;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+.course-benefits-heading{
+    color: #F7F7F8;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.learning-heading{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+.learning-p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.learning-p-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.learning-p-bold{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: 600;
+}
+.learning-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.learning-content-block{
+    display: flex;
+    padding: 20px 44px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 20px;
+    border: 1px solid var(--grd-vertical, #9954F1);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 585px;
+
+}
+.span-learning-content{
+font-family: "Marck Script";
+font-size: 94px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: var(--grd-vertical, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+width: 41px;
+}
+.learning {
+    position: relative; /* Для позиционирования псевдоэлемента */
+    width: 100%; /* Ширина блока */
+    height: 100%; /* Высота блока */
+}
+
+.learning::before {
+    content: '';
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 447px;
+    height: 630px;
+    background: url(../img/learning-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%) rotate(90deg); /* Центрирование и поворот изображения */
+    opacity: 0.4;
+    filter: blur(35px);
+}
+.ending-motto-learning{
+    margin-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+.about-me-content{
+    padding: 32px 48px;
+    border-radius: 24px;
+    background: #242424;
+}
+.about-me-heading{
+    text-align: center;
+    font-family: "Marck Script";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+.about-me-img{
+    width: 387px;
+    height: 500px;
+    border-radius: 24px;
+}
+.about-me-second-heading{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.about-me-content-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bold{
+    font-weight: 600;
+}
+.about-me-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.exp-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.exp-block{
+    display: flex;
+    width: 325px;
+    height: 198px;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid var(--grd-vertical, #9954F1);
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.exp-block-p{
+    text-align: center;
+    font-family: "Marck Script";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 90px;
+}
+.my-students-heading{
+    text-align: center;
+    font-family: "Marck Script";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+
+}
+.review-block{
+    display: flex;
+    width: 590px;
+    padding: 24px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 24px;
+    background: #242424;
+    height: 230px;
+}
+.reviews-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.review-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.review-img{
+    width: 32px;
+    height: 32px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+.review-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.price-heading{
+    text-align: center;
+    font-family: "Marck Script";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.price-img{
+    width: 390px;
+    height: 580px;
+}
+.action-button-price{
+    display: block;
+}
+.price-content-container{
+    display: flex;
+    width: 386px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+.price-content{
+    display: flex;
+    padding: 48px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 32px;
+    border: 1px solid var(--grd-vertical, #9954F1);
+    color: #FFF;
+    width: 386px;
+
+}
+.action-button-price{
+    display: flex;
+    padding: 16px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 60px;
+    background: linear-gradient(90deg, #E26EE5 0%, #9954F1 100%);
+    color: #FFF;
+    margin-top: 0px;
+}
+.price-content-span{
+    text-align: center;
+    font-family: "Marck Script";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--grd-vertical, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.price-content-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media (max-width: 1200px) {
+    .about-course{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .about-course-img-one, .about-course-img-two{
+        width: 320px;
+        height: 320px;
+    }
+    .course-program-container{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .course-program-block{
+        width: 330px;
+        font-size: 16px;
+    }
+    .course-benefits-container{
+        flex-direction: column;
+    }
+    .benefit-block{
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        padding: 18px 40px;
+    }
+    .benefits-icon{
+        width: 55px;
+        height: 55px;
+    }
+    .learning-content{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .learning-content-block{
+        width: 320px;
+        padding: 10px 15px;
+        align-items: center;
+        gap: 0px;
+        font-size: 11px;
+    }
+    .span-learning-content{
+        font-size: 64px;
+    }
+    .about-me-container{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .exp-container{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .about-me-content{
+        width: 320px;
+    }
+    .exp-block{
+        width: 275px;
+    }
+    .about-me-img{
+        width: 320px;
+        height: 400px;
+    }
+    .about-me-content-paragraph{
+        font-size: 10px;
+    }
+    .about-me-content {
+        padding: 20px 15px;
+        border-radius: 24px;
+        background: #242424;
+    }
+    .about-me-second-heading{
+        font-size: 13px;
+    }
+    .review-content{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .review-block{
+        width: 320px;
+        font-size: 11px;
+        padding: 25px 24px;
+    }
+    .course-program-block{
+        width: 320px;
+    }
+    .about-course-text-container{
+        width: 320px;
+    }
+    .price-container{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .price-img{
+        width: 320px;
+        height: 500px;
+    }
+    .price-content-paragraph{
+        width: 320px;
+    }
+    .price-content{
+        width: 320px;
+    }
+    .action-button-price{
+        font-size: 14px;
+        width: 265px;
+    }
+ }
