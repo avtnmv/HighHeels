@@ -7,6 +7,9 @@
     scroll-behavior: smooth;
 
 }
+.wrapper{
+    overflow: hidden;
+}
 body{
     background: #161616;
 }
@@ -36,6 +39,9 @@ nav{
 .header-container{
     max-width: 1200px;
     margin: auto;
+}
+ul li a{
+    color: #FFF;
 }
 .your-path{
     font-family: "Marck Script";
@@ -585,6 +591,124 @@ width: 41px;
     flex-direction: column;
     gap: 16px;
 }
+.faq-heading{
+    text-align: center;
+    font-family: "Marck Script";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--grd-vertival, linear-gradient(180deg, #9954F1 0%, #E26EE5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+.video-block{
+    width: 1200px;
+    height: 531px;
+    border-radius: 24px;
+    border: 1px solid #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+
+
+.faq-h2-head{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    margin-top: 130px;
+    margin-bottom: 32px;
+    }
+.accordeon{
+    border-radius: 24px;
+    background: #242424;
+}
+    
+    .accordeon-heading h2{
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .accordeon-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    }
+    .faq-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .faq-flex p{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-right: 5px;
+    }
+    #div1, #div2, #div3, #div4, #div5, #div6{
+    width: 525px;
+    text-align: left;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 29px;
+    
+    }
+    
+    .svg-icon,
+    .svg-icon2, 
+    .svg-icon3,
+    .svg-icon4,
+    .svg-icon5, 
+    .svg-icon6{
+    transition: transform 0.3s ease;
+    }
+    
+    .svg-icon.rotated,
+    .svg-icon2.rotated,
+    .svg-icon3.rotated, 
+    .svg-icon4.rotated,
+    .svg-icon5.rotated,
+    .svg-icon5.rotated{
+    transform: rotate(180deg); /* Поворот на 45 градусов, чтобы получился крестик */
+    }
+    .accordeon-content p{
+        color: #BABABA;
+        font-family: Manrope;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 24px;
+    }
 @media (max-width: 1200px) {
     .about-course{
         flex-direction: column;
@@ -691,5 +815,35 @@ width: 41px;
     .action-button-price{
         font-size: 14px;
         width: 265px;
+    }
+    .video-block{
+        display: block;
+        width: 320px;
+        height: 151px;
+        margin: auto;
+    }
+    .video, .course-program-container, .course-benefits-container, .ending-motto-learning, .about-me-container, .reviews-container, .price-container, .FAQ{
+    margin-bottom: 50px;
+    }
+    .accordeon{
+        width: 320px;
+    }
+    .accordeon-heading h2{
+        font-size: 14px;
+    }
+    .faq-flex{
+        align-items: baseline;
+    }
+    #div1, #div2, #div3, #div4, #div5, #div6{
+        width: 300px;
+        margin-left: 0px;
+
+    }
+    .accordeon-content p{
+        font-size: 13px;
+        padding: 0px 24px;
+    }
+    .FAQ{
+        align-items: center;
     }
  }
