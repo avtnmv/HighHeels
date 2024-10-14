@@ -427,7 +427,7 @@ width: 41px;
 }
 .exp-block{
     display: flex;
-    width: 325px;
+    width: 320px;
     height: 198px;
     padding: 20px 0px;
     flex-direction: column;
@@ -884,14 +884,14 @@ width: 41px;
         width: 320px;
     }
     .exp-block{
-        width: 275px;
+        width: 300px;
     }
     .about-me-img{
         width: 320px;
         height: 400px;
     }
     .about-me-content-paragraph{
-        font-size: 10px;
+        font-size: 11px;
     }
     .about-me-content {
         padding: 20px 15px;
@@ -899,7 +899,7 @@ width: 41px;
         background: #242424;
     }
     .about-me-second-heading{
-        font-size: 13px;
+        font-size: 14px;
     }
     .review-content{
         flex-direction: column;
