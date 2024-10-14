@@ -709,6 +709,124 @@ width: 41px;
         line-height: normal;
         margin-bottom: 24px;
     }
+
+
+
+
+
+
+
+    .burger-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw; /* Занимает всю ширину экрана */
+        height: 100vh; /* Занимает всю высоту экрана */
+        color: #fff;
+        z-index: 1000;
+        text-align: center;
+        background-color: #242424;
+        
+        }
+        
+        .burger-menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 70px; /* Можно настроить в зависимости от того, где вы хотите расположить элементы */
+        }
+        
+        .burger-menu ul li {
+        margin: 35px 0;
+        }
+        
+        .burger-menu ul li a {
+        color: #fff;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        }
+        
+        /* Иконка бургера */
+        .burger-icon {
+            display: block; /* Убедитесь, что иконка видна */
+            width: 69px;
+            height: 40px;
+            cursor: pointer;
+            color: #fff;
+            position: fixed; /* Зафиксировать иконку на экране */
+            top: 10px; /* Положение от верха страницы */
+            right: 10px; /* Иконка справа */
+            z-index: 1001;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.10);
+            background: rgba(226, 110, 229, 0.90);
+        }
+      
+      
+        .burger-stick{
+
+        width: 33px;
+        height: 1.5px;
+        margin: auto;
+        margin-top: 2.5px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 2px;
+        transition: all 0.3s ease-in-out;
+        background-color: #242424;
+        }
+        .no-scroll {
+        overflow: hidden;
+        position: fixed; /* Фиксируем положение для предотвращения прокрутки */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        }
+        .our-team-info{
+          margin-top: 16px;
+        }
+        .burger-stick:nth-child(1) {
+        top: 10px;
+        }
+        
+        .burger-stick:nth-child(2) {
+        top: 22px;
+        }
+        
+        .burger-stick:nth-child(3) {
+        top: 24px;
+        }
+        
+        .burger-icon.active .burger-stick {
+        left: 0;
+        transition: all 0.3s ease-in-out;
+        }
+        
+        .burger-icon.active .burger-stick:nth-child(1) {
+        transform: rotate(45deg);
+        top: 16px;
+        }
+        
+        .burger-icon.active .burger-stick:nth-child(2) {
+        transform: rotate(-45deg);
+        top: 16px;
+        }
+        
+        .burger-icon.active .burger-stick:nth-child(3) {
+        opacity: 0;
+        }
+        .logo-burger{
+        text-align: left;
+        padding-left: 25px;
+        }
+        .burger-menu.active {
+            right: 0; /* Показать меню, когда активное */
+        }
+      
+      
 @media (max-width: 1200px) {
     .about-course{
         flex-direction: column;
@@ -822,7 +940,7 @@ width: 41px;
         height: 151px;
         margin: auto;
     }
-    .video, .course-program-container, .course-benefits-container, .ending-motto-learning, .about-me-container, .reviews-container, .price-container, .FAQ{
+    .video, .course-program-container, .course-benefits-container, .ending-motto-learning, .about-me-container, .reviews-container, .price-container, .FAQ, .about-course{
     margin-bottom: 50px;
     }
     .accordeon{
@@ -846,4 +964,15 @@ width: 41px;
     .FAQ{
         align-items: center;
     }
+    nav{
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+    .burger-menu.show {
+      display: block;
+    }
+
+
  }
