@@ -825,7 +825,7 @@ width: 41px;
         .burger-menu.active {
             right: 0; /* Показать меню, когда активное */
         }
-      
+
       
 @media (max-width: 1200px) {
     .about-course{
