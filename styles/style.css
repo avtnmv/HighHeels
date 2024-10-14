@@ -702,7 +702,7 @@ width: 41px;
     .svg-icon3.rotated, 
     .svg-icon4.rotated,
     .svg-icon5.rotated,
-    .svg-icon5.rotated{
+    .svg-icon6.rotated{
     transform: rotate(180deg); /* Поворот на 45 градусов, чтобы получился крестик */
     }
     .accordeon-content p{
