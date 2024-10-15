@@ -1244,4 +1244,11 @@ width: 41px;
         filter: blur(13px);
         z-index: 1;
       }
+      .contacts-links{
+        margin-top: 50px;
+      }
+      .footer-ending{
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
  }
