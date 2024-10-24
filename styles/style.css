@@ -341,11 +341,11 @@ width: 41px;
     content: '';
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 40%;
     width: 447px;
     height: 650px;
     background: url(../img/learning-bg.png);
-    transform: translate(-50%, -50%) rotate(90deg); /* Центрирование и поворот изображения */
+    transform: translate(-50%, -50%); /* Центрирование и поворот изображения */
     opacity: 0.4;
     filter: blur(35px);
 }
